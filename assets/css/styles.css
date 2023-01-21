@@ -133,6 +133,10 @@ fonts-and-stuff{
     flex-direction: row;
     align-items: center;
     }
+
+    #contact-form {
+        width: 600px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -184,6 +188,18 @@ fonts-and-stuff{
         scroll-snap-align: start;
         color: #000000;
     }
+
+    input[type="submit"] {
+        background-color:rgb(188, 195, 201);
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color:aliceblue;
+      }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -202,3 +218,42 @@ fonts-and-stuff{
         background-color: #000000;
     }
 }
+
+/* Default styles for the form */
+#contact-form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color:rgb(188, 195, 201);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:aliceblue;
+  }
+  
