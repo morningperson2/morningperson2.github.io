@@ -8,6 +8,14 @@ font-family: "Times New Roman", Times, serif;
 height: 100%;
 }
 
+.icon{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 50%;
+    
+}
+
 nav {
     background-color: #2980B9;
     padding: 0px 30px;
@@ -50,7 +58,10 @@ fonts-and-stuff{
 .page{
     display: flex;
     flex-direction: column;
-    margin: 0px 15px;
+}
+
+.mar{
+    margin: 5%;
 }
 
 .portrate img{
@@ -59,6 +70,10 @@ fonts-and-stuff{
     display: block;
     margin:auto;
   }
+
+.slide{
+    max-height: 80%;
+}
 
 #Welcome{
     min-height: 100%;
@@ -109,8 +124,81 @@ fonts-and-stuff{
     margin: 10%;
 }
 
-@media only screen and (min-width: 1024px) {
+#icon{
+    text-align: center;
+}
+
+@media only screen and (min-width: 1000px) {
     .page {
     flex-direction: row;
     align-items: center;
-    }}
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #Welcome{
+        min-height: 100%;
+        min-width: none;
+        font-size:x-large;
+        scroll-snap-align: start;
+        background-color: aliceblue;
+        color: #000000;
+    }
+    
+    #Bio{
+        min-height: 100%;
+        min-width: none;
+        background-color: #343a40;
+        color: whitesmoke;
+        font-size: x-large;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        scroll-snap-align: start;
+    }
+    
+    #Skills{
+        min-height: 100%;
+        min-width: none;
+        background-color:aliceblue;
+        font-size: x-large;
+        scroll-snap-align: start;
+        color: #000000;
+    }
+    
+    #Hobbies{
+        min-height: 100%;
+        min-width: none;
+        background-color: #343a40;
+        color: whitesmoke;
+        font-size: x-large;
+        scroll-snap-align: start;
+    }
+    
+    #Contact{
+        min-height: 100%;
+        min-width: none;
+        background-color: aliceblue;
+        font-size: x-large;
+        scroll-snap-align: start;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    #Welcome{
+        min-height: 100%;
+        min-width: none;
+        font-size:x-large;
+        scroll-snap-align: start;
+        background-color:dimgray;
+        color: #000000;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    footer{
+        background-color: #000000;
+    }
+}
