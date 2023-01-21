@@ -64,6 +64,7 @@ fonts-and-stuff{
     min-height: 100%;
     min-width: none;
     font-size:x-large;
+    scroll-snap-align: start;
 }
 
 #Bio{
@@ -75,7 +76,8 @@ fonts-and-stuff{
     display: flex;
     align-items: center;
     text-align: center;
-    margin: auto
+    margin: auto;
+    scroll-snap-align: start;
 }
 
 #Skills{
@@ -83,6 +85,7 @@ fonts-and-stuff{
     min-width: none;
     background-color:#343a40;
     font-size: x-large;
+    scroll-snap-align: start;
 }
 
 #Hobbies{
@@ -91,6 +94,7 @@ fonts-and-stuff{
     background-color: aliceblue;
     color: #000000;
     font-size: x-large;
+    scroll-snap-align: start;
 }
 
 #Contact{
@@ -98,6 +102,7 @@ fonts-and-stuff{
     min-width: none;
     background-color: #343a40;
     font-size: x-large;
+    scroll-snap-align: start;
 }
 
 #text{
