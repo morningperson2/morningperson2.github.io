@@ -8,6 +8,44 @@ font-family: "Times New Roman", Times, serif;
 height: 100%;
 }
 
+#contact-form {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color:#343a40;
+    color: aliceblue;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color:#464e57;
+  }
+  
+
 .icon{
     display: inline-block;
     margin-left: 1%;
@@ -65,7 +103,7 @@ fonts-and-stuff{
 }
 
 .portrate img{
-    width: 50%;
+    width: 100%;
     height: auto;
     display: block;
     margin:auto;
@@ -137,6 +175,18 @@ fonts-and-stuff{
     #contact-form {
         width: 600px;
     }
+
+    input[type="submit"] {
+        background-color:rgb(188, 195, 201);
+        color: black;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      input[type="submit"]:hover {
+        background-color:aliceblue;
+      }
 }
 
 @media only screen and (max-width: 600px) {
@@ -188,18 +238,6 @@ fonts-and-stuff{
         scroll-snap-align: start;
         color: #000000;
     }
-
-    input[type="submit"] {
-        background-color:rgb(188, 195, 201);
-        color: black;
-        padding: 12px 20px;
-        border: none;
-        cursor: pointer;
-      }
-      
-      input[type="submit"]:hover {
-        background-color:aliceblue;
-      }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
@@ -217,43 +255,6 @@ fonts-and-stuff{
     footer{
         background-color: #000000;
     }
+    
 }
 
-/* Default styles for the form */
-#contact-form {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 5px;
-  }
-  
-  input, textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-  }
-  
-  input[type="submit"] {
-    background-color:rgb(188, 195, 201);
-    color: black;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color:aliceblue;
-  }
-  
